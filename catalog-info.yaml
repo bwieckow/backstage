@@ -31,7 +31,7 @@ metadata:
     bamboo:
       namespace: kpmdemo
       name: container-healthcheck
-      baseUrl: https://bamboo.stepstone.com
+      hostname: bamboo.stepstone.com
   tags:
     - nodejs  # Links relevant to the project 
   # for example: base url, documentation, monitoring etc.  
