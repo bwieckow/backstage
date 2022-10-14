@@ -28,6 +28,10 @@ metadata:
   description: container-healthcheck
   # Tags for technology, libraries used in project etc. 
   # see tag policy for details https://eureka.stepstone.com/display/PAAS/Tags+policy
+  cicd:
+    bamboo:
+      namespace: kpmdemo
+      name: container-healthcheck
   tags:
     - nodejs  # Links relevant to the project 
   # for example: base url, documentation, monitoring etc.  
