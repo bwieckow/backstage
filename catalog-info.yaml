@@ -27,11 +27,6 @@ metadata:
   # Basic information about component functionality
   description: container-healthcheck
   # Tags for technology, libraries used in project etc. 
-  cicd:
-    bamboo:
-      namespace: kpmdemo
-      name: container-healthcheck
-      hostname: bamboo.stepstone.com
   tags:
     - nodejs  # Links relevant to the project 
   # for example: base url, documentation, monitoring etc.  
@@ -45,7 +40,8 @@ metadata:
   # annotations are used for plugins enabled in stonehenge 
 
 
-  # annotations: 
+  annotations:
+    bamboo/plan-key: kpmdemo-container-healthcheck
     # SonarQube plugin - displays SonarQube metrics 
     # sonarqube.org/project-key: SONARQUBE_PROJECT_KEY
 
