@@ -41,7 +41,7 @@ metadata:
 
 
   annotations:
-    bamboo/plan-key: kpmdemo-container-healthcheck
+    bamboo/plan-key: kpmdemo-containerhealthcheck
     # SonarQube plugin - displays SonarQube metrics 
     # sonarqube.org/project-key: SONARQUBE_PROJECT_KEY
 
